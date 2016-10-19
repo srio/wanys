@@ -1,8 +1,8 @@
-from orangecontrib.srw.drivers.AbstractDriver import AbstractDriver
-from orangecontrib.srw.drivers.shadow.ShadowDriverData import ShadowDriverData
-from orangecontrib.srw.drivers.shadow.ShadowAdapter import ShadowAdapter
-from orangecontrib.srw.drivers.DriverSettingAttribute import DriverSettingAttribute
-from orangecontrib.srw.drivers.DriverSettings import DriverSettings
+from orangecontrib.wanys.drivers.AbstractDriver import AbstractDriver
+from orangecontrib.wanys.drivers.shadow.ShadowDriverData import ShadowDriverData
+from orangecontrib.wanys.drivers.shadow.ShadowAdapter import ShadowAdapter
+from orangecontrib.wanys.drivers.DriverSettingAttribute import DriverSettingAttribute
+from orangecontrib.wanys.drivers.DriverSettings import DriverSettings
 
 import Shadow
 

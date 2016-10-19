@@ -18,7 +18,7 @@ from orangecontrib.wanys.util.Enum import Enum
 from orangecontrib.wanys.util.OpticalElement import OpticalElement
 from orangecontrib.wanys.util.OpticalBeam import OpticalBeam
 
-from orangecontrib.srw.widgets.drivers.DriverSettingsWidget import DriverSettingsWidget
+from orangecontrib.wanys.widgets.drivers.DriverSettingsWidget import DriverSettingsWidget
 
 class Circle(Enum):
     def __init__(self):

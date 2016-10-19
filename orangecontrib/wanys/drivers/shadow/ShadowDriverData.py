@@ -1,7 +1,7 @@
 """
 Data for SRW driver.
 """
-from orangecontrib.srw.drivers.AbstractDriverData import AbstractDriverData
+from orangecontrib.wanys.drivers.AbstractDriverData import AbstractDriverData
 
 import Shadow
 
