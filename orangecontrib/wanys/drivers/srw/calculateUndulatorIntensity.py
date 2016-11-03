@@ -1,7 +1,7 @@
 import mpi4py.MPI as mpi
 
-from BeamlineComponents.Source.UndulatorVertical import UndulatorVertical
-from BeamlineComponents.Beam.ElectronBeam import ElectronBeam
+from orangecontrib.wanys.BeamlineComponents.Source.UndulatorVertical import UndulatorVertical
+from orangecontrib.wanys.BeamlineComponents.Beam.ElectronBeam import ElectronBeam
 from SRWAdapter import SRWAdapter
 from Intensities import Intensities
 from orangecontrib.wanys.util.ProbabilityDistributions import NormalDistribution

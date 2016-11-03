@@ -11,8 +11,8 @@ from orangewidget.settings import Setting
 from orangewidget import gui
 from oasys.widgets import widget
 
-from BeamlineComponents.Aperture.ApertureCircle import ApertureCircle
-from BeamlineComponents.Aperture.ApertureRectangle import ApertureRectangle
+from orangecontrib.wanys.BeamlineComponents.Aperture.ApertureCircle import ApertureCircle
+from orangecontrib.wanys.BeamlineComponents.Aperture.ApertureRectangle import ApertureRectangle
 
 from orangecontrib.wanys.util.Enum import Enum
 from orangecontrib.wanys.util.OpticalElement import OpticalElement

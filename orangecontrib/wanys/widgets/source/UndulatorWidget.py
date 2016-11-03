@@ -15,7 +15,7 @@ from orangecontrib.wanys.util.OpticalElement import OpticalElement
 from orangecontrib.wanys.util.OpticalBeam import OpticalBeam
 from orangecontrib.wanys.widgets.drivers.DriverSettingsWidget import DriverSettingsWidget
 
-from BeamlineComponents.Source.Undulator import Undulator
+from orangecontrib.wanys.BeamlineComponents.Source.Undulator import Undulator
 
 class UndulatorWidget(widget.OWWidget):
     name = "Undulator"

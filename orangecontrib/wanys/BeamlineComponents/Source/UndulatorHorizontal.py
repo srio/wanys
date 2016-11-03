@@ -1,4 +1,4 @@
-from BeamlineComponents.Source.Undulator import Undulator
+from orangecontrib.wanys.BeamlineComponents.Source.Undulator import Undulator
 
 class UndulatorHorizontal(Undulator):
     def __init__(self, K, period_length, period_number):

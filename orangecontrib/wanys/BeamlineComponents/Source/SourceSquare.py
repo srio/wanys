@@ -2,7 +2,7 @@
 Represents an optical square source.
 """
 
-from BeamlineComponents.Source.SourceRectangle import SourceRectangle
+from orangecontrib.wanys.BeamlineComponents.Source.SourceRectangle import SourceRectangle
 
 class SourceSquare(SourceRectangle):
     def __init__(self, length_side):

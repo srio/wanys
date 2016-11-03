@@ -2,7 +2,7 @@
 Represents a circular stop.
 """
 
-from BeamlineComponents.Stop.StopEllipse import StopEllipse
+from orangecontrib.wanys.BeamlineComponents.Stop.StopEllipse import StopEllipse
 
 class StopCircle(StopEllipse):
     def __init__(self, diameter):

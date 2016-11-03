@@ -3,26 +3,26 @@ Abstract driver for all optical simulation software backend.
 """
 from orangecontrib.wanys.util.OpticalElementScreen import OpticalElementScreen
 
-from BeamlineComponents.Aperture.ApertureEllipse import ApertureEllipse
-from BeamlineComponents.Aperture.ApertureCircle import ApertureCircle
-from BeamlineComponents.Aperture.ApertureRectangle import ApertureRectangle
-from BeamlineComponents.Aperture.ApertureSquare import ApertureSquare
+from orangecontrib.wanys.BeamlineComponents.Aperture.ApertureEllipse import ApertureEllipse
+from orangecontrib.wanys.BeamlineComponents.Aperture.ApertureCircle import ApertureCircle
+from orangecontrib.wanys.BeamlineComponents.Aperture.ApertureRectangle import ApertureRectangle
+from orangecontrib.wanys.BeamlineComponents.Aperture.ApertureSquare import ApertureSquare
 
-from BeamlineComponents.DriftSpace.DriftSpace import DriftSpace
+from orangecontrib.wanys.BeamlineComponents.DriftSpace.DriftSpace import DriftSpace
 
-from BeamlineComponents.Lens.LensIdeal import LensIdeal
+from orangecontrib.wanys.BeamlineComponents.Lens.LensIdeal import LensIdeal
 
-from BeamlineComponents.Beam.ElectronBeam import ElectronBeam
+from orangecontrib.wanys.BeamlineComponents.Beam.ElectronBeam import ElectronBeam
 
-from BeamlineComponents.Source.SourceGaussian import SourceGaussian
-from BeamlineComponents.Source.SourcePoint import SourcePoint
-from BeamlineComponents.Source.Undulator import Undulator
-from BeamlineComponents.Source.Wiggler import Wiggler
+from orangecontrib.wanys.BeamlineComponents.Source.SourceGaussian import SourceGaussian
+from orangecontrib.wanys.BeamlineComponents.Source.SourcePoint import SourcePoint
+from orangecontrib.wanys.BeamlineComponents.Source.Undulator import Undulator
+from orangecontrib.wanys.BeamlineComponents.Source.Wiggler import Wiggler
 
-from BeamlineComponents.Stop.StopEllipse import StopEllipse
-from BeamlineComponents.Stop.StopCircle import StopCircle
-from BeamlineComponents.Stop.StopRectangle import StopRectangle
-from BeamlineComponents.Stop.StopSquare import StopSquare
+from orangecontrib.wanys.BeamlineComponents.Stop.StopEllipse import StopEllipse
+from orangecontrib.wanys.BeamlineComponents.Stop.StopCircle import StopCircle
+from orangecontrib.wanys.BeamlineComponents.Stop.StopRectangle import StopRectangle
+from orangecontrib.wanys.BeamlineComponents.Stop.StopSquare import StopSquare
 
 
 class AbstractDriver(object):

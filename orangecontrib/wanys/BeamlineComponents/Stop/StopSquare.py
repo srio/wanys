@@ -2,7 +2,7 @@
 Represents a square stop.
 """
 
-from BeamlineComponents.Stop.StopRectangle import StopRectangle
+from orangecontrib.wanys.BeamlineComponents.Stop.StopRectangle import StopRectangle
 
 class StopSquare(StopRectangle):
     def __init__(self, side_length):

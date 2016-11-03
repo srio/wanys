@@ -18,7 +18,7 @@ from orangecontrib.wanys.util.OpticalBeam import OpticalBeam
 from orangecontrib.wanys.widgets.drivers.DriverSettingsWidget import DriverSettingsWidget
 from orangecontrib.wanys.drivers.ActiveDriver import ActiveDriver
 
-from BeamlineComponents.Beam.ElectronBeam import ElectronBeam
+from orangecontrib.wanys.BeamlineComponents.Beam.ElectronBeam import ElectronBeam
 
 class ElectronBeamWidget(widget.OWWidget):
     name = "Electron beam"

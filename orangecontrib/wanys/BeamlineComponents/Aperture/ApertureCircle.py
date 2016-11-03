@@ -2,7 +2,7 @@
 Represents a circular aperture.
 """
 
-from BeamlineComponents.Aperture.ApertureEllipse import ApertureEllipse
+from orangecontrib.wanys.BeamlineComponents.Aperture.ApertureEllipse import ApertureEllipse
 
 class ApertureCircle(ApertureEllipse):
     def __init__(self, diameter):

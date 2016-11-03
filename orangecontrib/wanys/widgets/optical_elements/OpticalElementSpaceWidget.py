@@ -14,7 +14,7 @@ from oasys.widgets import widget
 from orangecontrib.wanys.util.OpticalElement import OpticalElement
 from orangecontrib.wanys.util.OpticalBeam import OpticalBeam
 
-from BeamlineComponents.DriftSpace.DriftSpace import DriftSpace
+from orangecontrib.wanys.BeamlineComponents.DriftSpace.DriftSpace import DriftSpace
 
 from orangecontrib.wanys.widgets.drivers.DriverSettingsWidget import DriverSettingsWidget
 

@@ -1,4 +1,4 @@
-from BeamlineComponents.Source.InsertionDevice import InsertionDevice
+from orangecontrib.wanys.BeamlineComponents.Source.InsertionDevice import InsertionDevice
 
 class Wiggler(InsertionDevice):
 

@@ -2,7 +2,7 @@
 Represents a square aperture.
 """
 
-from BeamlineComponents.Aperture.ApertureRectangle import ApertureRectangle
+from orangecontrib.wanys.BeamlineComponents.Aperture.ApertureRectangle import ApertureRectangle
 
 class ApertureSquare(ApertureRectangle):
     def __init__(self, side_length):

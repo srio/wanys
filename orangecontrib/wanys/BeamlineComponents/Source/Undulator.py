@@ -1,7 +1,7 @@
 from numpy import pi, sqrt
 import scipy.constants.codata
 
-from BeamlineComponents.Source.InsertionDevice import InsertionDevice
+from orangecontrib.wanys.BeamlineComponents.Source.InsertionDevice import InsertionDevice
 
 class Undulator(InsertionDevice):
 

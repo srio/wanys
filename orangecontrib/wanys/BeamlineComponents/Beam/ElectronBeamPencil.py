@@ -1,4 +1,4 @@
-from BeamlineComponents.Beam.ElectronBeam import ElectronBeam
+from orangecontrib.wanys.BeamlineComponents.Beam.ElectronBeam import ElectronBeam
 
 class ElectronBeamPencil(ElectronBeam):
     def __init__(energy_in_GeV, energy_spread, average_current, ):

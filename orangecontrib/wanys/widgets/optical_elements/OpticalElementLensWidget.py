@@ -15,7 +15,7 @@ from orangecontrib.wanys.util.OpticalElement import OpticalElement
 from orangecontrib.wanys.util.OpticalBeam import OpticalBeam
 from orangecontrib.wanys.widgets.drivers.DriverSettingsWidget import DriverSettingsWidget
 
-from BeamlineComponents.Lens.LensIdeal import LensIdeal
+from orangecontrib.wanys.BeamlineComponents.Lens.LensIdeal import LensIdeal
 
 class OpticalElementLensWidget(widget.OWWidget):
     name = "Optical lens"

@@ -19,7 +19,7 @@ from orangecontrib.wanys.util.Polarization import Polarization
 from orangecontrib.wanys.widgets.drivers.DriverSettingsWidget import DriverSettingsWidget
 from orangecontrib.wanys.drivers.ActiveDriver import ActiveDriver
 
-from BeamlineComponents.Source.SourceGaussian import SourceGaussian
+from orangecontrib.wanys.BeamlineComponents.Source.SourceGaussian import SourceGaussian
 
 class OpticalElementSourceGaussianWidget(widget.OWWidget):
     name = "Gaussian source"

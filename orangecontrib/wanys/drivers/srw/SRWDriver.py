@@ -9,9 +9,9 @@ from orangecontrib.wanys.drivers.DriverSettings import DriverSettings
 from orangecontrib.wanys.drivers.srw.SRWAdapter import SRWAdapter
 
 from orangecontrib.wanys.util.Polarization import LinearVertical, LinearHorizontal
-from BeamlineComponents.Beam.ElectronBeam import ElectronBeam
-from BeamlineComponents.Source.SourceGaussian import SourceGaussian
-from BeamlineComponents.Source.Undulator import Undulator
+from orangecontrib.wanys.BeamlineComponents.Beam.ElectronBeam import ElectronBeam
+from orangecontrib.wanys.BeamlineComponents.Source.SourceGaussian import SourceGaussian
+from orangecontrib.wanys.BeamlineComponents.Source.Undulator import Undulator
 
 class SRWDriver(AbstractDriver):
     
