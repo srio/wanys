@@ -2,14 +2,14 @@
 Test for abstract driver.
 """
 import unittest
-from orangecontrib.srw.util.OpticalElementSourceGaussian import OpticalElementSourceGaussian
-from orangecontrib.srw.util.OpticalElementAperture import OpticalElementAperture
-from orangecontrib.srw.util.OpticalElementLens import OpticalElementLens
-from orangecontrib.srw.util.OpticalElementScreen import OpticalElementScreen
-from orangecontrib.srw.util.OpticalElementSpace import OpticalElementSpace
+#from orangecontrib.wanys.util.OpticalElementSourceGaussian import OpticalElementSourceGaussian
+#from orangecontrib.wanys.util.OpticalElementAperture import OpticalElementAperture
+#from orangecontrib.wanys.util.OpticalElementLens import OpticalElementLens
+from orangecontrib.wanys.util.OpticalElementScreen import OpticalElementScreen
+#from orangecontrib.wanys.util.OpticalElementSpace import OpticalElementSpace
 
-from orangecontrib.srw.drivers.AbstractDriver import AbstractDriver
-from orangecontrib.srw.tests.drivers.AbstractDriverDataTest import AbstractDriverDataMock
+from orangecontrib.wanys.drivers.AbstractDriver import AbstractDriver
+from orangecontrib.wanys.tests.drivers.AbstractDriverDataTest import AbstractDriverDataMock
 
 class AbstractDriverMock(AbstractDriver):
 

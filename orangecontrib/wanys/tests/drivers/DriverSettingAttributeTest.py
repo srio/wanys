@@ -2,7 +2,7 @@
 Tests driver settings attributes.
 """
 import unittest
-from orangecontrib.srw.drivers.DriverSettingAttribute import DriverSettingAttribute
+from orangecontrib.wanys.drivers.DriverSettingAttribute import DriverSettingAttribute
 
 class DriverSettingAttributeTest(unittest.TestCase):
     def testConstructor(self):

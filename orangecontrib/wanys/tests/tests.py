@@ -1,7 +1,7 @@
 import unittest
 
 from orangecontrib.wanys.tests.utils.OpticalElementTest import OpticalElementTest
-from orangecontrib.wanys.tests.utils.OpticalRouteTest import OpticalRouteTest
+#from orangecontrib.wanys.tests.utils.OpticalRouteTest import OpticalRouteTest
 from orangecontrib.wanys.tests.drivers.DriverSettingsTest import DriverSettingsTest
 from orangecontrib.wanys.tests.drivers.AbstractDriverDataTest import AbstractDriverDataTest
 from orangecontrib.wanys.tests.drivers.AbstractDriverTest import AbstractDriverTest
@@ -12,7 +12,7 @@ from orangecontrib.wanys.tests.drivers.srw.SRWDriverTest import SRWDriverTest
 def suite():
     suites = (
         unittest.makeSuite(OpticalElementTest, 'test'),
-        unittest.makeSuite(OpticalRouteTest, 'test'),
+#        unittest.makeSuite(OpticalRouteTest, 'test'),
 
         unittest.makeSuite(DriverSettingsTest, 'test'),
         unittest.makeSuite(AbstractDriverDataTest, 'test'),

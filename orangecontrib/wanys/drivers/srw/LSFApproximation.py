@@ -2,7 +2,7 @@ import numpy as np
 import itertools
 import scipy.interpolate
 
-import mpi4py.MPI as mpi
+#import mpi4py.MPI as mpi
 
 class BasisFunction(object):
     def __init__(self, func, shift_x, shift_y):

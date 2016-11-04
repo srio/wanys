@@ -2,8 +2,8 @@
 Represents driver settings. (collection of driver attributes)
 """
 import unittest
-from orangecontrib.srw.drivers.DriverSettings import DriverSettings
-from orangecontrib.srw.drivers.DriverSettingAttribute import DriverSettingAttribute
+from orangecontrib.wanys.drivers.DriverSettings import DriverSettings
+from orangecontrib.wanys.drivers.DriverSettingAttribute import DriverSettingAttribute
 
 class DriverSettingsTest(unittest.TestCase):
     def testConstructor(self):

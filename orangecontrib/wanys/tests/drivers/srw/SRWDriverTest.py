@@ -2,15 +2,15 @@
 Test for SRW driver.
 """
 import unittest
-from orangecontrib.srw.util.OpticalElementSourceGaussian import OpticalElementSourceGaussian
-from orangecontrib.srw.util.OpticalElementAperture import OpticalElementAperture
-from orangecontrib.srw.util.OpticalElementLens import OpticalElementLens
-from orangecontrib.srw.util.OpticalElementScreen import OpticalElementScreen
-from orangecontrib.srw.util.OpticalElementSpace import OpticalElementSpace
-from orangecontrib.srw.util.OpticalElementAperture import Disc
-from orangecontrib.srw.util.Polarization import LinearHorizontal
+#from orangecontrib.wanys.util.OpticalElementSourceGaussian import OpticalElementSourceGaussian
+#from orangecontrib.wanys.util.OpticalElementAperture import OpticalElementAperture
+#from orangecontrib.wanys.util.OpticalElementLens import OpticalElementLens
+from orangecontrib.wanys.util.OpticalElementScreen import OpticalElementScreen
+#from orangecontrib.wanys.util.OpticalElementSpace import OpticalElementSpace
+#from orangecontrib.wanys.util.OpticalElementAperture import Disc
+from orangecontrib.wanys.util.Polarization import LinearHorizontal
 
-from orangecontrib.srw.drivers.srw.SRWDriver import SRWDriver
+from orangecontrib.wanys.drivers.srw.SRWDriver import SRWDriver
 
 from matplotlib import *
 from matplotlib.pyplot import *

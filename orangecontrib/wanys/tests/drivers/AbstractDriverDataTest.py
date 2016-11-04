@@ -2,7 +2,7 @@
 Test for abstract driver data.
 """
 import unittest
-from orangecontrib.srw.drivers.AbstractDriverData import AbstractDriverData
+from orangecontrib.wanys.drivers.AbstractDriverData import AbstractDriverData
 
 class AbstractDriverDataMock(AbstractDriverData):
     def __init__(self):
