@@ -1,4 +1,4 @@
 # wanys
 Wavefront ANalysis in oaSYS
 
-** Project under construction **
+Obsolete: superseded by https://github.com/lucarebuffi/wofry
